@@ -1,0 +1,171 @@
+
+.box {
+    display: flex;
+    padding: 16px ;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+        
+    border-radius: 8px;
+    border: 1px solid var(--gray-400, #333);
+    background: var(--gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.container {
+  padding: 16px;
+  justify-content: space-between; /* Distribui o conteúdo ao longo da div */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  
+  
+
+}
+
+
+.septextandtrash{
+  position: relative;
+  padding: 16px;
+}
+
+.alinhatexto {
+  width: 100%; /* Defina a largura total do contêiner */
+  max-width: 736px; /* Defina a largura máxima do contêiner */
+}
+
+.alinhatexto p {
+  overflow-wrap: break-word; /* Permite a quebra de palavra e quebra de linha */
+}
+
+p {
+  color: var(--gray-100, #F2F2F2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+
+.strikethroughText p {
+  color: var(--gray-300, #808080);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  text-decoration: line-through;
+
+  flex: 1 0 0;
+
+}
+
+
+
+.grid  {
+display: grid;  
+gap: 16px;
+
+}
+
+
+.lixao {
+  position: absolute;
+  top: 45%;
+  margin: auto;
+  right: 16px;
+  transform: translateY(-50%);}
+
+
+/* Estilização normal do botão */
+.lixao button {
+  display: flex;
+  background: none;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 5px 5.522px 5px 6px;
+  justify-content: center;
+  align-items: center;
+  }
+   
+
+/* Estilização da imagem trashred */
+.lixao button .trashred {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Inicialmente, a imagem trashred está invisível */
+  transition: opacity 0.3s; /* Adiciona uma transição suave */
+  width: 24px;
+  height: 24px;
+  padding: 5px 5.522px 5px 6px;
+  justify-content: center;
+  align-items: center;
+}
+/* Estilização quando o mouse está sobre o botão */
+.lixao button:hover .trashred {
+  opacity: 1; /* Torna a imagem trashred visível quando o mouse está sobre o botão */
+  
+
+
+}
+
+
+.checkbox {
+    display: grid;
+    width: 24px;
+    height: 24px;
+    padding: 3.273px;
+    justify-content: center;
+    
+}
+
+
+.checkbox button:hover {
+  color: red;
+  opacity: 1;
+  
+}
+
+
+
+
+
+/* Estilização da checkbox personalizada */
+.checkboxContainer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+
+/* Estilização das imagens */
+.checkboxContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+/* Esconde a imagem do checkmark inicialmente */
+.checkmarkImage {
+    display: none;
+  }
+  
+  
+/* Estilização quando a checkbox está marcada */
+.checkboxContainer input[type="checkbox"]:checked + .checkboxImage {
+    display: none;
+  }
+  
+.checkboxContainer input[type="checkbox"]:checked + span .checkmarkImage {
+  display: block;
+}
+
+input {
+    display: none;
+
+}

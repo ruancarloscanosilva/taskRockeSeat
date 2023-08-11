@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch
+}
+
+
+.post {
+    width: 736px ;
+    height: 19px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    align-self: stretch;
+    margin-top: 50px;
+}
+
+
+.grid {
+    margin-top: -258px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.create {
+    color: var(--blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.create .conclud {
+    margin: -16px ;
+}
+
+
+
+
+.conclud {
+    color: var(--purple, #8284FA);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+
+}
+
+.textalin strong {   
+    color: var(--gray-300, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+        
+}
+
+
+.textalin p {
+    color: var(--gray-300, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    
+}
+
+.alinhaimagemetexto img {
+    margin-top: 76px;
+    padding: 16px;
+}
+
+
+
+.grid1 {
+    display: flex;
+    padding: 2px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+
+
+    border-radius: 999px;
+    background: var(--gray-400, #333);
+}
+
+.createh2 {
+    color: var(--gray-200, #D9D9D9);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.grid2 {
+    display: flex;
+    padding: 2px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+
+    border-radius: 999px;
+    background: var(--gray-400, #333);
+}
+
+
+.createconclud {
+    color: var(--gray-200, #D9D9D9);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.textalin p  {
+    text-align: center;
+}
+
+.textalin form {
+    text-align: center;
+}
+
+
+.image { display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch
+
+    
+}
+
+
